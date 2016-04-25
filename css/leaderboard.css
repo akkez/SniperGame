@@ -1,0 +1,36 @@
+.table {
+	border: 1px solid black;
+	margin: 10px auto;
+}
+
+.table td, .table th {
+	text-align: center;
+	padding: 7px;
+}
+
+tr {
+	border: 1px solid black;
+}
+
+th {
+	font-weight: bold;
+	border-bottom: 1px solid #888;
+}
+
+body {
+	font-family: Arial;
+	text-align: center;
+}
+
+.difflink {
+	text-decoration: none;
+	border-bottom: 1px dashed blue;
+}
+
+.diff {
+	margin-top: 10px;
+}
+
+.chooser {
+	display: none;
+}

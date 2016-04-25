@@ -1,0 +1,58 @@
+.object {
+	width: 60px;
+	height: 60px;
+	background-color: #55E4E0;
+	border: 1px solid #888;
+	position: absolute;
+	border-radius: 50%;
+}
+
+.inner {
+	width: 30px;
+	height: 30px;
+	background-color: #FFFF70;
+	left: 15px;
+	top: 15px;
+	position: absolute;
+	border-radius: 50%;	
+}
+
+.border {
+	margin: 0 auto;
+	margin-top: 25px;
+	width: 800px;
+	height: 600px;
+	border: 1px solid #333;
+	position: relative;
+}
+
+.dot {
+	position: absolute;
+	border-radius: 50%;
+	width: 6px;
+	height: 6px;
+	margin-left: -3px;
+	margin-top: -3px;
+	background-color: #FF7070;
+}
+
+.dot-title {
+	position: relative;
+	left: 5px;
+	top: 5px;
+	font-family: Arial;
+	font-size: 15px;
+	color: #FF3030;
+	font-weight: bold;
+}
+
+.inline-div {
+	display: inline;
+}
+
+.info {
+	font-family: Arial;
+	position: absolute;
+	top: 20px;
+	left: 40px;
+}
